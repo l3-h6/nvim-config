@@ -9,7 +9,7 @@ return {
           right_separator             = "",
           full_path                   = false,
           line_column                 = "[%l/%L] :%c 並%p%% ",
-          fg                          = "#000000",
+          fg                          = "#ffffff",
           bg                          = "none",
           inactive_color              = "#303030",
           inactive_bgcolor            = "none",
@@ -24,7 +24,7 @@ return {
           n = "#2AC3DD",
           i = "#73DAC7",
           c = "#BA9AF7",
-          v = "#F99C64",
+          v = "#FF966C",
         },
         mode_icons = {
           n = " ",

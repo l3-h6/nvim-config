@@ -25,13 +25,13 @@ vim.keymap.set('n', '<leader>]', ':bprevious<CR>', { desc = "Navigate Buffer - P
   { noremap = true, silent = true })
 
 -- Close buffer
-vim.keymap.set('n', '<leader>kw', ':bufdo bd<CR>', { desc = "Close all buffers" })
+vim.keymap.set('n', '<leader>bd', ':bufdo bd<CR>', { desc = "Close all buffers" })
 
 -- Copy and Paste for external Clipboard
 vim.opt.clipboard:append('unnamedplus')
 
 -- Split Panes
-vim.keymap.set('n', '<leader>s', ':vsplit<space><CR>', { desc = "Split Pane" }, { noremap = true, silent = false })
+vim.keymap.set('n', '<leader>bs', ':vsplit<CR>', { desc = "Split Pane" }, { noremap = true, silent = false })
 
 -- Vim Swapfile to false
 vim.opt.swapfile = false
@@ -45,3 +45,6 @@ vim.g.loaded_netrwPlugin = 1
 
 -- Color 24-bit support
 vim.opt.termguicolors = true
+
+-- Exit Insert mode
+vim.keymap.set('i', 'jk', '<Esc>', { noremap = true, silent = true })

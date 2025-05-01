@@ -14,11 +14,11 @@ return {
       edit = "e",
       delete_mode = "D",
       clear_all_items = "C",
-      toggle = "a",  -- used as save if separate_save_and_remove is true
+      toggle = "a", -- used as save if separate_save_and_remove is true
       open_vertical = "v",
       open_horizontal = "-",
       quit = "q",
-      remove = "d",  -- only used if separate_save_and_remove is true
+      remove = "d", -- only used if separate_save_and_remove is true
       next_item = "n",
       prev_item = "p"
     },

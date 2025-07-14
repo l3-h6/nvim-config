@@ -1,1 +1,5 @@
-return require("plugins.config.completion.completions") 
+return {
+  require("plugins.config.completion.completions"),
+  require("plugins.config.completion.luasnip"),
+}
+

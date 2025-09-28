@@ -5,6 +5,7 @@ return {
   require("plugins.config.tools.trouble"),
   require("plugins.config.tools.treesj"),
   require("plugins.config.tools.tmux"),
+  require("plugins.config.tools.presence"),
   require("plugins.config.tools.commentary"),
   require("plugins.config.tools.visual-multicursor"),
 } 

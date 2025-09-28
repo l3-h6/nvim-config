@@ -27,16 +27,16 @@ return {
           vim.schedule(function() gs.prev_hunk() end)
           return '<Ignore>'
         end, {expr=true, desc = 'Prev Hunk'})
-        map({'n', 'v'}, '<leader>gs', ':Gitsigns stage_hunk<CR>', {desc = 'Stage Hunk'})
-        map({'n', 'v'}, '<leader>gr', ':Gitsigns reset_hunk<CR>', {desc = 'Reset Hunk'})
-        map('n', '<leader>gS', gs.stage_buffer, {desc = 'Stage Buffer'})
-        map('n', '<leader>gu', gs.undo_stage_hunk, {desc = 'Undo Stage Hunk'})
-        map('n', '<leader>gR', gs.reset_buffer, {desc = 'Reset Buffer'})
-        map('n', '<leader>gp', gs.preview_hunk, {desc = 'Preview Hunk'})
-        map('n', '<leader>gb', function() gs.blame_line{full=true} end, {desc = 'Blame Line'})
-        map('n', '<leader>gd', gs.diffthis, {desc = 'Diff This'})
-        map('n', '<leader>gD', function() gs.diffthis('~') end, {desc = 'Diff This ~'})
-        map('n', '<leader>gt', gs.toggle_deleted, {desc = 'Toggle Deleted'})
+        map({'n', 'v'}, '<leader>ggs', ':Gitsigns stage_hunk<CR>', {desc = 'Stage Hunk'})
+        map({'n', 'v'}, '<leader>ggr', ':Gitsigns reset_hunk<CR>', {desc = 'Reset Hunk'})
+        map('n', '<leader>ggS', gs.stage_buffer, {desc = 'Stage Buffer'})
+        map('n', '<leader>ggu', gs.undo_stage_hunk, {desc = 'Undo Stage Hunk'})
+        map('n', '<leader>ggR', gs.reset_buffer, {desc = 'Reset Buffer'})
+        map('n', '<leader>ggp', gs.preview_hunk, {desc = 'Preview Hunk'})
+        map('n', '<leader>ggb', function() gs.blame_line{full=true} end, {desc = 'Blame Line'})
+        map('n', '<leader>ggd', gs.diffthis, {desc = 'Diff This'})
+        map('n', '<leader>ggD', function() gs.diffthis('~') end, {desc = 'Diff This ~'})
+        map('n', '<leader>ggt', gs.toggle_deleted, {desc = 'Toggle Deleted'})
       end
     }
   end

@@ -4,6 +4,7 @@ return {
   require("plugins.config.ui.transparent"),
   require("plugins.config.ui.snacks"),
   require("plugins.config.ui.icons"),
-  require("plugins.config.ui.colorscheme")
+  require("plugins.config.ui.colorscheme"),
+  require("plugins.config.ui.barbecue")
 }
 

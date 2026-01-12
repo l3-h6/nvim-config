@@ -8,13 +8,10 @@ local tools = require("plugins.tools")
 local editing = require("plugins.editing")
 local formatting = require("plugins.formatting")
 local commenting = require("plugins.commenting")
-local ts = require("plugins.ts")
-local refactor = require("plugins.refactor")
-local project = require("plugins.project")
 local ai = require("plugins.ai")
 
 local all_plugins = {}
-for _, group in ipairs({ai, lsp, completion, treesitter, ui, git, filetree, tools, editing, formatting, commenting, ts, refactor, project}) do
+for _, group in ipairs({ai, lsp, completion, treesitter, ui, git, filetree, tools, editing, formatting, commenting}) do
   if type(group) == "table" then
     for _, plugin in ipairs(group) do
       table.insert(all_plugins, plugin)

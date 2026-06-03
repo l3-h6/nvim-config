@@ -1,1 +1,0 @@
-{"id":"msg_bdrk_016zW1dx8sBwwroN6vmCTjF3","type":"message","role":"assistant","model":"claude-3-5-sonnet-20240620","content":[{"type":"text","text":"Hello! I'm doing well, thank you for asking. How are you doing today? Is there anything I can help you with?"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":13,"output_tokens":30}}

@@ -1,3 +1,3 @@
 return {
-  require("plugins.config.ai.opencode")
+  -- require("plugins.config.ai.opencode")
 }
